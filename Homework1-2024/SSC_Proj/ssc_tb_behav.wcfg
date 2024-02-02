@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ssc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ssc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="346.000001 us"></ZoomEndTime>
+      <Cursor1Time time="346.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/ssc_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/debug_addr" type="array">
+      <obj_property name="ElementShortName">debug_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/debug_en" type="logic">
+      <obj_property name="ElementShortName">debug_en</obj_property>
+      <obj_property name="ObjectShortName">debug_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ssc_tb/DUT/mem_buffer/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[255:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[255:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group660" type="group">
+      <obj_property name="label">Datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Clk" type="logic">
+         <obj_property name="ElementShortName">Clk</obj_property>
+         <obj_property name="ObjectShortName">Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Rst" type="logic">
+         <obj_property name="ElementShortName">Rst</obj_property>
+         <obj_property name="ObjectShortName">Rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Read_Data" type="array">
+         <obj_property name="ElementShortName">Read_Data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Read_Data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Write_Data" type="array">
+         <obj_property name="ElementShortName">Write_Data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Write_Data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Address" type="array">
+         <obj_property name="ElementShortName">Address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Cnt1_Out" type="array">
+         <obj_property name="ElementShortName">Cnt1_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Cnt1_Out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Cnt2_Out" type="array">
+         <obj_property name="ElementShortName">Cnt2_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Cnt2_Out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Sel_AMux" type="array">
+         <obj_property name="ElementShortName">Sel_AMux[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Sel_AMux[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Sel_DMux" type="logic">
+         <obj_property name="ElementShortName">Sel_DMux</obj_property>
+         <obj_property name="ObjectShortName">Sel_DMux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Sel_Mux" type="logic">
+         <obj_property name="ElementShortName">Sel_Mux</obj_property>
+         <obj_property name="ObjectShortName">Sel_Mux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Load_Min" type="logic">
+         <obj_property name="ElementShortName">Load_Min</obj_property>
+         <obj_property name="ObjectShortName">Load_Min</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/Load_Temp" type="logic">
+         <obj_property name="ElementShortName">Load_Temp</obj_property>
+         <obj_property name="ObjectShortName">Load_Temp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/mux_addr" type="array">
+         <obj_property name="ElementShortName">mux_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/min_addr" type="array">
+         <obj_property name="ElementShortName">min_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">min_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/load_addr" type="logic">
+         <obj_property name="ElementShortName">load_addr</obj_property>
+         <obj_property name="ObjectShortName">load_addr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/min_reg" type="array">
+         <obj_property name="ElementShortName">min_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">min_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/load_min" type="logic">
+         <obj_property name="ElementShortName">load_min</obj_property>
+         <obj_property name="ObjectShortName">load_min</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/temp_reg" type="array">
+         <obj_property name="ElementShortName">temp_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_datapath/lt" type="logic">
+         <obj_property name="ElementShortName">lt</obj_property>
+         <obj_property name="ObjectShortName">lt</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group336" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Clk" type="logic">
+         <obj_property name="ElementShortName">Clk</obj_property>
+         <obj_property name="ObjectShortName">Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Rst" type="logic">
+         <obj_property name="ElementShortName">Rst</obj_property>
+         <obj_property name="ObjectShortName">Rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Start" type="logic">
+         <obj_property name="ElementShortName">Start</obj_property>
+         <obj_property name="ObjectShortName">Start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Done" type="logic">
+         <obj_property name="ElementShortName">Done</obj_property>
+         <obj_property name="ObjectShortName">Done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Cnt1_Out" type="array">
+         <obj_property name="ElementShortName">Cnt1_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Cnt1_Out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Cnt2_Out" type="array">
+         <obj_property name="ElementShortName">Cnt2_Out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Cnt2_Out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Sel_AMux" type="array">
+         <obj_property name="ElementShortName">Sel_AMux[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Sel_AMux[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Sel_DMux" type="logic">
+         <obj_property name="ElementShortName">Sel_DMux</obj_property>
+         <obj_property name="ObjectShortName">Sel_DMux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Sel_Mux" type="logic">
+         <obj_property name="ElementShortName">Sel_Mux</obj_property>
+         <obj_property name="ObjectShortName">Sel_Mux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Read_Reg" type="logic">
+         <obj_property name="ElementShortName">Read_Reg</obj_property>
+         <obj_property name="ObjectShortName">Read_Reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Write_Reg" type="logic">
+         <obj_property name="ElementShortName">Write_Reg</obj_property>
+         <obj_property name="ObjectShortName">Write_Reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Load_Min" type="logic">
+         <obj_property name="ElementShortName">Load_Min</obj_property>
+         <obj_property name="ObjectShortName">Load_Min</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Load_Temp" type="logic">
+         <obj_property name="ElementShortName">Load_Temp</obj_property>
+         <obj_property name="ObjectShortName">Load_Temp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/Z" type="array">
+         <obj_property name="ElementShortName">Z[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Z[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/n_state" type="array">
+         <obj_property name="ElementShortName">n_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">n_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/p_state" type="array">
+         <obj_property name="ElementShortName">p_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">p_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/en_cnt2" type="logic">
+         <obj_property name="ElementShortName">en_cnt2</obj_property>
+         <obj_property name="ObjectShortName">en_cnt2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/pl_cnt2" type="logic">
+         <obj_property name="ElementShortName">pl_cnt2</obj_property>
+         <obj_property name="ObjectShortName">pl_cnt2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/co2" type="logic">
+         <obj_property name="ElementShortName">co2</obj_property>
+         <obj_property name="ObjectShortName">co2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/en_cnt1" type="logic">
+         <obj_property name="ElementShortName">en_cnt1</obj_property>
+         <obj_property name="ObjectShortName">en_cnt1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/co1" type="logic">
+         <obj_property name="ElementShortName">co1</obj_property>
+         <obj_property name="ObjectShortName">co1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/start_pe" type="logic">
+         <obj_property name="ElementShortName">start_pe</obj_property>
+         <obj_property name="ObjectShortName">start_pe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/start_r" type="logic">
+         <obj_property name="ElementShortName">start_r</obj_property>
+         <obj_property name="ObjectShortName">start_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_IDLE" type="array">
+         <obj_property name="ElementShortName">S_IDLE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_IDLE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_START" type="array">
+         <obj_property name="ElementShortName">S_START[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_START[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_INIT" type="array">
+         <obj_property name="ElementShortName">S_INIT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_INIT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_FIND" type="array">
+         <obj_property name="ElementShortName">S_FIND[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_FIND[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_UPDATE0" type="array">
+         <obj_property name="ElementShortName">S_UPDATE0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_UPDATE0[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_UPDATE1" type="array">
+         <obj_property name="ElementShortName">S_UPDATE1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_UPDATE1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_UPDATE2" type="array">
+         <obj_property name="ElementShortName">S_UPDATE2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_UPDATE2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ssc_tb/DUT/ssc_controller/S_DONE" type="array">
+         <obj_property name="ElementShortName">S_DONE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_DONE[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
