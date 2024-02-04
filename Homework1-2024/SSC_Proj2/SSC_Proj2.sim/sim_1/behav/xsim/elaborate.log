@@ -1,0 +1,26 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ssc_tb_behav xil_defaultlib.ssc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/data_mux.sv" Line 1. Module data_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/data_mux.sv" Line 1. Module data_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.addr_mux
+Compiling module xil_defaultlib.data_mux
+Compiling module xil_defaultlib.amux
+Compiling module xil_defaultlib.ssc_datapath
+Compiling module xil_defaultlib.ssc_controller
+Compiling module xil_defaultlib.mem_buffer
+Compiling module xil_defaultlib.ssc_wrapper
+Compiling module xil_defaultlib.ssc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ssc_tb_behav

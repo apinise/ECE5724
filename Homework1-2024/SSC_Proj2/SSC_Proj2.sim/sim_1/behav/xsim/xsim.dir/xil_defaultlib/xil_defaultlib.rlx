@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv,1707020587,systemVerilog,,,,ssc_tb,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/addr_mux.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/amux.sv,,addr_mux,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/amux.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/data_mux.sv,,amux,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/data_mux.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/mem_buffer.sv,,data_mux,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/mem_buffer.sv,1707019924,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_controller.sv,,mem_buffer,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_controller.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_datapath.sv,,ssc_controller,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_datapath.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv,,ssc_datapath,,uvm,,,,,,
+C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv,1706898060,systemVerilog,,C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/SSC_Proj2/SSC_Proj2.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv,,ssc_wrapper,,uvm,,,,,,
