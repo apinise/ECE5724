@@ -1,0 +1,18 @@
+srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module addr_mux (VERI-9002)
+INFO: analyzing module amux (VERI-9002)
+INFO: analyzing module data_mux (VERI-9002)
+INFO: analyzing module mem_buffer (VERI-9002)
+INFO: analyzing module ssc_controller (VERI-9002)
+INFO: analyzing module ssc_datapath (VERI-9002)
+INFO: analyzing module ssc_tb (VERI-9002)
+C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv(140): WARNING: syntax error near 'test_pass' (VERI-1137)
+INFO: analyzing module ssc_wrapper (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:ssc_tb
+END of tops
+C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv(3): INFO: compiling module 'ssc_tb_default' (VERI-1018)
+srcscan exits with return value 0

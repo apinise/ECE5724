@@ -61,6 +61,26 @@ logic start_r;
 //////////////////////   Instantiations   //////////////////////
 ////////////////////////////////////////////////////////////////
 
+counter_1 counter_1 (
+    .Clk(Clk),
+    .Rst(Rst),
+    .Start_Pe(start_pe),
+    .En_Cnt1(en_cnt1),
+    .Cnt1_Out(Cnt1_Out),
+    .CO1(co1)
+);
+
+counter_2 counter_2 (
+    .Clk(Clk),
+    .Rst(Rst),
+    .Start_Pe(start_pe),
+    .En_Cnt2(en_cnt2),
+    .Pl_Cnt2(pl_cnt2),
+    .Cnt1_Out(Cnt1_Out),
+    .Cnt2_Out(Cnt2_Out),
+    .CO2(co2)
+);
+
 ////////////////////////////////////////////////////////////////
 ///////////////////////   Module Logic   ///////////////////////
 ////////////////////////////////////////////////////////////////
@@ -176,50 +196,6 @@ always_ff @(posedge Clk or posedge Rst) begin
 end
 
 assign start_pe = (!start_r && Start) ? 1'b1 : 1'b0;
-
-// Counter 1
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    Cnt1_Out  <= '0;
-  end
-  else begin
-    if (start_pe) begin
-      Cnt1_Out  <= '0;
-    end
-    else begin
-      if (en_cnt1) begin
-        Cnt1_Out  <= Cnt1_Out + 8'd1;
-      end
-      else begin
-        Cnt1_Out  <= Cnt1_Out;
-      end
-    end
-  end
-end
-
-assign co1 = (Cnt1_Out == 8'd255) ? 1'b1 : 1'b0;
-
-// Counter 2
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    Cnt2_Out  <= '0;
-  end
-  else begin
-    if (start_pe) begin
-      Cnt2_Out  <= 8'd1;
-    end
-    else begin
-      if (pl_cnt2) begin
-        Cnt2_Out  <= Cnt1_Out + 8'd1;
-      end
-      else if (en_cnt2) begin
-        Cnt2_Out  <= Cnt2_Out + 8'd1;
-      end
-    end
-  end
-end
-
-assign co2 = (Cnt2_Out == 8'd255) ? 1'b1 : 1'b0;
 
 ////////////////////////////////////////////////////////////////
 //////////////////   Instantiation Template   //////////////////

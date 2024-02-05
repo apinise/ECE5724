@@ -1,0 +1,912 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 7100
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Feb 04 17:36:56 EST 2024
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 24
+
+Screen size: 2560x1440
+Local screen bounds: x = 0, y = 0, width = 2560, height = 1392
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	D:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	D:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	Evan
+User home directory: C:/Users/Evan
+User working directory: C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2023.2
+RDI_DATADIR: D:/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/Evan/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/Evan/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/Evan/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/vivado.log
+Vivado journal file: 	C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/vivado.jou
+Engine tmp dir: 	C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/.Xil/Vivado-7100-DESKTOP-LPEOLP6
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+AMDRMPATH: C:\Program Files\AMD\RyzenMaster\
+RDI_APPROOT: D:/Xilinx/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent24608 "C:\Users\Evan\Documents\S24\5724\ECE5724\Homework1-2024\SSC_Proj\SSC_Proj.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/Xilinx/Vivado
+RDI_BINDIR: D:/Xilinx/Vivado/2023.2/bin
+RDI_BINROOT: D:/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: D:/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: D:/Xilinx/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/Xilinx/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: D:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: D:/Xilinx/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: D:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;D:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/Xilinx/Vitis/2023.2/bin;D:/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/nt64;D:/Xilinx/Vivado/2023.2/ids_lite/ISE/lib/nt64
+RDI_PROG: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3;D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\bin;D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib;D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\Evan\Documents\S24\5724\ECE5724\Homework1-2024\SSC_Proj:DESKTOP-LPEOLP6-Sun02-04-2024_17-36-45.89
+RDI_SHARED_DATA: D:/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: D:/Xilinx/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: D:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2023.2
+XILINX_SDK: D:/Xilinx/Vitis/2023.2
+XILINX_VITIS: D:/Xilinx/Vitis/2023.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2023.2
+_RDI_BINROOT: D:\Xilinx\Vivado\2023.2\bin
+_RDI_CWD: C:\Users\Evan\Documents\S24\5724\ECE5724\Homework1-2024\SSC_Proj
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,125 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Evan\Documents\S24\5724\ECE5724\Homework1-2024\SSC_Proj\SSC_Proj.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+112708kb) [00:00:07]
+// [Engine Memory]: 1,076 MB (+976726kb) [00:00:07]
+// WARNING: HEventQueue.dispatchEvent() is taking  1259 ms.
+// Tcl Message: open_project C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,142 MB. GUI used memory: 92 MB. Current time: 2/4/24, 5:36:56 PM EST
+// [Engine Memory]: 1,149 MB (+20347kb) [00:00:08]
+// Project name: SSC_Proj; location: C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// [GUI Memory]: 149 MB (+34744kb) [00:00:10]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 162 MB (+5884kb) [00:03:32]
+// [Engine Memory]: 1,229 MB (+23438kb) [00:08:11]
+// Elapsed time: 483 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,250 MB. GUI used memory: 76 MB. Current time: 2/4/24, 5:45:01 PM EST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("ssc_wrapper.sv", 433, 591); // ad (ssc_wrapper.sv)
+// Elapsed time: 209 seconds
+selectCodeEditor("ssc_wrapper.sv", 290, 582); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 296, 581); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 292, 586); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 291, 585); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:50s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:52s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("ssc_wrapper.sv", 238, 90); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 11m:54s
+// Elapsed Time for: 'L.f': 11m:56s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 11m:58s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 12m:00s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 12m:02s
+// Elapsed Time for: 'L.f': 12m:04s
+// Elapsed time: 27 seconds
+selectCodeEditor("ssc_wrapper.sv", 151, 96); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 165, 123); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("ssc_wrapper.sv", 196, 146); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 12m:40s
+selectCodeEditor("ssc_wrapper.sv", 196, 146, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'c'); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 12m:42s
+selectCodeEditor("ssc_wrapper.sv", 316, 564); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 316, 564, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 213, 149); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 219, 149); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 211, 147); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 211, 147, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 198, 125); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 198, 125, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'c'); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 325, 588); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 325, 588, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'v'); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 369, 702); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 15m:26s
+// Elapsed Time for: 'L.f': 15m:28s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 148 seconds
+selectCodeEditor("ssc_wrapper.sv", 162, 521); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 15m:30s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 15m:32s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 15m:34s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("ssc_wrapper.sv", 126, 531); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 126, 530, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+// Elapsed Time for: 'L.f': 15m:36s
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'c'); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 15m:38s
+selectCodeEditor("ssc_wrapper.sv", 122, 618); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 122, 616, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'v'); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 15m:50s
+// Elapsed Time for: 'L.f': 15m:52s
+selectCodeEditor("ssc_wrapper.sv", 97, 489); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 97, 488, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 367, 690); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 367, 690, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 381, 665); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 381, 665, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 58, 720); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 58, 720, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 69, 745); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 69, 745, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 73, 760); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 73, 760, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 378, 766); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 378, 766, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 378, 759); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 378, 759, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 386, 737); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 386, 737, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 390, 716); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 390, 716, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 402, 756); // ad (ssc_wrapper.sv)
+// Elapsed time: 72 seconds
+selectCodeEditor("ssc_wrapper.sv", 182, 143); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 182, 143, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 198, 110); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 198, 110, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'c'); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 61, 717); // ad (ssc_wrapper.sv)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'v'); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:02s
+// Elapsed Time for: 'L.f': 18m:04s
+// Elapsed time: 11 seconds
+selectCodeEditor("ssc_wrapper.sv", 193, 502); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:14s
+// Elapsed Time for: 'L.f': 18m:16s
+// Elapsed time: 161 seconds
+selectCodeEditor("ssc_wrapper.sv", 201, 589); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 414, 596); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 415, 595, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+selectCodeEditor("ssc_wrapper.sv", 413, 583); // ad (ssc_wrapper.sv)
+selectCodeEditor("ssc_wrapper.sv", 413, 583, false, false, false, false, true); // ad (ssc_wrapper.sv) - Double Click
+typeControlKey((HResource) null, "ssc_wrapper.sv", 'c'); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 23m:24s
+// Elapsed time: 154 seconds
+selectCodeEditor("ssc_wrapper.sv", 614, 519); // ad (ssc_wrapper.sv)
+// Elapsed Time for: 'L.f': 23m:26s
+selectCodeEditor("ssc_wrapper.sv", 24, 544); // ad (ssc_wrapper.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 23m:34s
+// Elapsed Time for: 'L.f': 23m:36s
+// Elapsed time: 104 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ssc_tb (ssc_tb.sv)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ssc_tb (ssc_tb.sv)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_wrapper.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_tb.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_wrapper.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_tb.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("ssc_tb.sv", 192, 353); // ad (ssc_tb.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_wrapper.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_tb.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_wrapper.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_tb.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 25m:48s
+// Elapsed Time for: 'L.f': 25m:50s
+// Elapsed time: 343 seconds
+selectCodeEditor("ssc_tb.sv", 178, 244); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 181, 268); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 186, 250); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectCodeEditor("ssc_tb.sv", 132, 292); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 132, 292, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+// Elapsed Time for: 'L.f': 32m:09s
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 96, 447); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 136, 281); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 136, 281, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+// Elapsed Time for: 'L.f': 32m:11s
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 82, 434); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 129, 264); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 129, 264, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 104, 418); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 156, 504); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 123, 145); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 123, 145, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 129, 534); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:29s
+selectCodeEditor("ssc_tb.sv", 136, 132); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 136, 132, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+// Elapsed Time for: 'L.f': 32m:31s
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 159, 503); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 134, 514); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 150, 518); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:39s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 32m:41s
+selectCodeEditor("ssc_tb.sv", 53, 557); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 53, 557, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 159, 447); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 32m:53s
+// Elapsed Time for: 'L.f': 32m:55s
+// Elapsed time: 13 seconds
+selectCodeEditor("ssc_tb.sv", 54, 674); // ad (ssc_tb.sv)
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 33m:35s
+selectCodeEditor("ssc_tb.sv", 45, 646); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 45, 646, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+// Elapsed Time for: 'L.f': 33m:37s
+selectCodeEditor("ssc_tb.sv", 49, 636); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 49, 636, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+selectCodeEditor("ssc_tb.sv", 175, 649); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 157, 783); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+typeControlKey(null, null, 'z');
+selectCodeEditor("ssc_tb.sv", 131, 767); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 33m:55s
+// Elapsed Time for: 'L.f': 33m:57s
+// Elapsed time: 10 seconds
+selectCodeEditor("ssc_tb.sv", 156, 317); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 10, 592); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 139, 623); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 121, 605); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 34m:13s
+// Elapsed Time for: 'L.f': 34m:15s
+// Elapsed time: 93 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'ssc_tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'ssc_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ssc_tb_behav xil_defaultlib.ssc_tb xil_defaultlib.glbl -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ssc_tb_behav -key {Behavioral:sim_1:Functional:ssc_tb} -tclbatch {ssc_tb.tcl} -view {C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,250 MB. GUI used memory: 93 MB. Current time: 2/4/24, 6:12:48 PM EST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source ssc_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ssc_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1856.277 ; gain = 0.000 
+// 'd' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,250 MB. GUI used memory: 91 MB. Current time: 2/4/24, 6:12:54 PM EST
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aa
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), ssc_datapath : ssc_datapath (ssc_datapath.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), ssc_datapath : ssc_datapath (ssc_datapath.sv)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), ssc_datapath : ssc_datapath (ssc_datapath.sv), data_mux : data_mux (data_mux.sv)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), ssc_datapath : ssc_datapath (ssc_datapath.sv), data_mux : data_mux (data_mux.sv)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), mem_buffer : mem_buffer (mem_buffer.sv)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ssc_wrapper (ssc_wrapper.sv), mem_buffer : mem_buffer (mem_buffer.sv)]", 8, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("mem_buffer.sv", 11, 432); // ad (mem_buffer.sv)
+selectCodeEditor("mem_buffer.sv", 27, 446); // ad (mem_buffer.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 36m:23s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bq (Close Progress)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'ssc_tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'ssc_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ssc_tb_behav -key {Behavioral:sim_1:Functional:ssc_tb} -tclbatch {ssc_tb.tcl} -view {C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,250 MB. GUI used memory: 97 MB. Current time: 2/4/24, 6:13:26 PM EST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg 
+// Tcl Message: source ssc_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ssc_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// Elapsed Time for: 'L.f': 36m:31s
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 28 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, simulation_live_run_all)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: run all 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 27 seconds
+selectCodeEditor("ssc_tb.sv", 91, 675); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_buffer.sv", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 38m:09s
+// Elapsed Time for: 'L.f': 38m:11s
+// Elapsed time: 380 seconds
+selectCodeEditor("mem_buffer.sv", 88, 618); // ad (mem_buffer.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_buffer.sv", 348, 703); // ad (mem_buffer.sv)
+// Elapsed time: 12 seconds
+selectCodeEditor("mem_buffer.sv", 169, 653); // ad (mem_buffer.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 45m:03s
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_buffer.sv", 80, 606); // ad (mem_buffer.sv)
+// Elapsed Time for: 'L.f': 45m:05s
+selectCodeEditor("mem_buffer.sv", 130, 628); // ad (mem_buffer.sv)
+selectCodeEditor("mem_buffer.sv", 43, 585); // ad (mem_buffer.sv)
+selectCodeEditor("mem_buffer.sv", 302, 521); // ad (mem_buffer.sv)
+typeControlKey((HResource) null, "mem_buffer.sv", 'c'); // ad (mem_buffer.sv)
+selectCodeEditor("mem_buffer.sv", 77, 631); // ad (mem_buffer.sv)
+typeControlKey((HResource) null, "mem_buffer.sv", 'v'); // ad (mem_buffer.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 45m:21s
+// Elapsed Time for: 'L.f': 45m:23s
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ssc_tb.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bq (Close Progress)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'ssc_tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'ssc_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ssc_tb_behav -key {Behavioral:sim_1:Functional:ssc_tb} -tclbatch {ssc_tb.tcl} -view {C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// [GUI Memory]: 175 MB (+5582kb) [00:45:53]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,250 MB. GUI used memory: 101 MB. Current time: 2/4/24, 6:22:41 PM EST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg 
+// Tcl Message: source ssc_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ssc_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, simulation_live_run_all)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run all 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 419 seconds
+selectCodeEditor("ssc_tb.sv", 124, 603); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 150, 604); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 161, 603); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 141, 604); // ad (ssc_tb.sv)
+// Elapsed time: 16 seconds
+selectCodeEditor("ssc_tb.sv", 28, 447); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 81, 652); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 81, 640); // ad (ssc_tb.sv)
+// Elapsed time: 16 seconds
+selectCodeEditor("ssc_tb.sv", 77, 652); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 175, 658); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 175, 657); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 236, 648); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 520, 660); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 72, 312); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 171, 331); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 464, 331); // ad (ssc_tb.sv)
+// Elapsed time: 19 seconds
+selectCodeEditor("ssc_tb.sv", 120, 335); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 131, 352); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 172, 377); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 243, 382); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 55m:25s
+// Elapsed Time for: 'L.f': 55m:27s
+// Elapsed time: 54 seconds
+selectCodeEditor("ssc_tb.sv", 115, 734); // ad (ssc_tb.sv)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 152, 710); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 152, 710, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+selectCodeEditor("ssc_tb.sv", 193, 700); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 56m:17s
+// Elapsed Time for: 'L.f': 56m:19s
+// Elapsed time: 120 seconds
+selectCodeEditor("ssc_tb.sv", 95, 600); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 96, 600, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("ssc_tb.sv", 185, 596); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 185, 596, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+selectCodeEditor("ssc_tb.sv", 221, 599); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 221, 599, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+selectCodeEditor("ssc_tb.sv", 267, 606); // ad (ssc_tb.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("ssc_tb.sv", 443, 582); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 395, 601); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 395, 601, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+selectCodeEditor("ssc_tb.sv", 27, 551); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 27, 550, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 366, 605); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 366, 605, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 159, 602); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 201, 607); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 156, 601); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 161, 609); // ad (ssc_tb.sv)
+// Elapsed time: 18 seconds
+selectCodeEditor("ssc_tb.sv", 61, 534); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 61, 534, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 613, 605); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 613, 605, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 828, 609); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 325, 377); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 325, 377, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 568, 605); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 137, 268); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 137, 268, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 645, 547); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 128, 282); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 128, 282, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 805, 549); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 59m:39s
+// Elapsed Time for: 'L.f': 59m:41s
+// Elapsed time: 71 seconds
+selectCodeEditor("ssc_tb.sv", 914, 557); // ad (ssc_tb.sv)
+// Elapsed time: 26 seconds
+selectCodeEditor("ssc_tb.sv", 124, 568); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 35, 599); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 23, 607); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 133, 607); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 170, 583); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 83, 612); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:01m:49s
+// Elapsed Time for: 'L.f': 01h:01m:51s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:02m:29s
+// Elapsed Time for: 'L.f': 01h:02m:31s
+// Elapsed time: 73 seconds
+selectCodeEditor("ssc_tb.sv", 908, 552); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 193, 581); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 200, 668); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 141, 727); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 145, 752); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 135, 237); // ad (ssc_tb.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:03m:05s
+selectCodeEditor("ssc_tb.sv", 145, 621); // ad (ssc_tb.sv)
+// Elapsed Time for: 'L.f': 01h:03m:07s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:03m:13s
+// Elapsed Time for: 'L.f': 01h:03m:15s
+selectCodeEditor("ssc_tb.sv", 53, 563); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 161, 537); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 113, 587); // ad (ssc_tb.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("ssc_tb.sv", 589, 517); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 589, 517, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 71, 590); // ad (ssc_tb.sv)
+typeControlKey((HResource) null, "ssc_tb.sv", 'v'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 59, 442); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 59, 442, false, false, false, false, true); // ad (ssc_tb.sv) - Double Click
+typeControlKey((HResource) null, "ssc_tb.sv", 'c'); // ad (ssc_tb.sv)
+selectCodeEditor("ssc_tb.sv", 160, 591); // ad (ssc_tb.sv)

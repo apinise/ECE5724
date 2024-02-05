@@ -3,7 +3,10 @@
 module ssc_wrapper (
   input   logic Clk,
   input   logic Rst,
-  input   logic [7:0] Debug_Addr,
+  input   logic [7:0]  Debug_Addr,
+  input   logic [15:0] Debug_Write,
+  input   logic        Debug_We,
+  input   logic        Debug_Read,
   input   logic Debug_En,
   input   logic Start,
   output  logic Done,
@@ -25,7 +28,9 @@ logic [15:0] read_data;
 logic [15:0] write_data;
 logic [7:0]  address;
 logic [7:0]  ssc_address;
+logic [15:0] ssc_write;
 logic        ssc_read;
+logic        ssc_we;
 logic        read_en;
 logic        write_en;
 
@@ -66,7 +71,7 @@ ssc_controller ssc_controller (
   .Sel_DMux(sel_dmux),
   .Sel_Mux(sel_mux),
   .Read_Reg(ssc_read),
-  .Write_Reg(write_en),
+  .Write_Reg(ssc_we),
   .Load_Min(load_min),
   .Load_Temp(load_temp),
   .Z()
@@ -86,9 +91,12 @@ mem_buffer mem_buffer (
 ///////////////////////   Module Logic   ///////////////////////
 ////////////////////////////////////////////////////////////////
 
+// Debug assignments
 assign Read_Data = read_data;
 assign address = (Debug_En == 1'b1) ? Debug_Addr : ssc_address;
-assign read_en = (Debug_En == 1'b1) ? 1'b1 : ssc_read;
+assign read_en = (Debug_En == 1'b1) ? Debug_Read : ssc_read;
+assign write_en = (Debug_En == 1'b1) ? Debug_We : ssc_we;
+assign write_data = (Debug_En == 1'b1) ? Debug_Write : ssc_write;
 
 ////////////////////////////////////////////////////////////////
 //////////////////   Instantiation Template   //////////////////

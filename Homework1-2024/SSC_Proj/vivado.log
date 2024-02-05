@@ -1,0 +1,712 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Feb  4 22:28:25 2024
+# Process ID: 17380
+# Current directory: C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13476 C:\Users\Evan\Documents\S24\5724\ECE5724\Homework1-2024\SSC_Proj\SSC_Proj.xpr
+# Log file: C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/vivado.log
+# Journal file: C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj\vivado.jou
+# Running On: DESKTOP-LPEOLP6, OS: Windows, CPU Frequency: 4700 MHz, CPU Physical cores: 24, Host memory: 67792 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ssc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ssc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj ssc_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module amux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/comparator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/counter_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/counter_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/data_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/mem_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/min_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/minaddr_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minaddr_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssc_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssc_datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssc_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/temp_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module temp_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ssc_tb_behav xil_defaultlib.ssc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ssc_tb_behav xil_defaultlib.ssc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'write_data' might have multiple concurrent drivers [C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv:99]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.addr_mux
+Compiling module xil_defaultlib.data_mux
+Compiling module xil_defaultlib.amux
+Compiling module xil_defaultlib.temp_reg
+Compiling module xil_defaultlib.min_reg
+Compiling module xil_defaultlib.minaddr_reg
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.ssc_datapath
+Compiling module xil_defaultlib.counter_1
+Compiling module xil_defaultlib.counter_2
+Compiling module xil_defaultlib.ssc_controller
+Compiling module xil_defaultlib.mem_buffer
+Compiling module xil_defaultlib.ssc_wrapper
+Compiling module xil_defaultlib.ssc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ssc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ssc_tb_behav -key {Behavioral:sim_1:Functional:ssc_tb} -tclbatch {ssc_tb.tcl} -view {C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/ssc_tb_behav.wcfg
+WARNING: Simulation object /ssc_tb/DUT/ssc_datapath/min_reg was not found in the design.
+WARNING: Simulation object /ssc_tb/DUT/ssc_datapath/temp_reg was not found in the design.
+source ssc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ssc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+update_compile_order -fileset sources_1
+run all
+This is Run 1: Testing a Reset mid Execution
+Current   879 Previous  1050 OK 1
+Current  1050 Previous  1057 OK 1
+Current  1057 Previous  1128 OK 1
+Current  1128 Previous  1441 OK 1
+Current  1441 Previous  1654 OK 1
+Current  1654 Previous  1717 OK 1
+Current  1717 Previous  1981 OK 1
+Current  1981 Previous  2033 OK 1
+Current  2033 Previous  2240 OK 1
+Current  2240 Previous  2629 OK 1
+Current  2629 Previous  2750 OK 1
+Current  2750 Previous  3068 OK 1
+Current  3068 Previous  3280 OK 1
+Current  3280 Previous  3597 OK 1
+Current  3597 Previous  3675 OK 1
+Current  3675 Previous  4034 OK 1
+Current  4034 Previous  4348 OK 1
+Current  4348 Previous  4376 OK 1
+Current  4376 Previous  4663 OK 1
+Current  4663 Previous  4898 OK 1
+Current  4898 Previous  5229 OK 1
+Current  5229 Previous  5291 OK 1
+Current  5291 Previous  5491 OK 1
+Current  5491 Previous  5698 OK 1
+Current  5698 Previous  5769 OK 1
+Current  5769 Previous  5831 OK 1
+Current  5831 Previous  5941 OK 1
+Current  5941 Previous  6074 OK 1
+Current  6074 Previous  6091 OK 1
+Current  6091 Previous  6511 OK 1
+Current  6511 Previous  6541 OK 1
+Current  6541 Previous  7489 OK 1
+Current  7489 Previous  7997 OK 1
+Current  7997 Previous  8241 OK 1
+Current  8241 Previous  8536 OK 1
+Current  8536 Previous  8962 OK 1
+Current  8962 Previous  8971 OK 1
+Current  8971 Previous  9309 OK 1
+Current  9309 Previous  9421 OK 1
+Current  9421 Previous  9450 OK 1
+Current  9450 Previous 10147 OK 1
+Current 10147 Previous 10419 OK 1
+Current 10419 Previous 10689 OK 1
+Current 10689 Previous 10940 OK 1
+Current 10940 Previous 11079 OK 1
+Current 11079 Previous 11192 OK 1
+Current 11192 Previous 11949 OK 1
+Current 11949 Previous 12481 OK 1
+Current 12481 Previous 12596 OK 1
+Current 12596 Previous 12743 OK 1
+Current 12743 Previous 12805 OK 1
+Current 12805 Previous 13099 OK 1
+Current 13099 Previous 13370 OK 1
+Current 13370 Previous 14324 OK 1
+Current 14324 Previous 14847 OK 1
+Current 14847 Previous 15368 OK 1
+Current 15368 Previous 16226 OK 1
+Current 16226 Previous 16273 OK 1
+Current 16273 Previous 16289 OK 1
+Current 16289 Previous 16461 OK 1
+Current 16461 Previous 16462 OK 1
+Current 16462 Previous 16770 OK 1
+Current 16770 Previous 17090 OK 1
+Current 17090 Previous 17663 OK 1
+Current 17663 Previous 17826 OK 1
+Current 17826 Previous 17941 OK 1
+Current 17941 Previous 17983 OK 1
+Current 17983 Previous 18413 OK 1
+Current 18413 Previous 18672 OK 1
+Current 18672 Previous 18916 OK 1
+Current 18916 Previous 19003 OK 1
+Current 19003 Previous 19137 OK 1
+Current 19137 Previous 19376 OK 1
+Current 19376 Previous 19454 OK 1
+Current 19454 Previous 19624 OK 1
+Current 19624 Previous 20113 OK 1
+Current 20113 Previous 20263 OK 1
+Current 20263 Previous 20448 OK 1
+Current 20448 Previous 20541 OK 1
+Current 20541 Previous 20745 OK 1
+Current 20745 Previous 21306 OK 1
+Current 21306 Previous 21379 OK 1
+Current 21379 Previous 21461 OK 1
+Current 21461 Previous 21627 OK 1
+Current 21627 Previous 21817 OK 1
+Current 21817 Previous 22428 OK 1
+Current 22428 Previous 23115 OK 1
+Current 23115 Previous 23433 OK 1
+Current 23433 Previous 23765 OK 1
+Current 23765 Previous 23861 OK 1
+Current 23861 Previous 24212 OK 1
+Current 24212 Previous 24605 OK 1
+Current 24605 Previous 25130 OK 1
+Current 25130 Previous 25622 OK 1
+Current 25622 Previous 25917 OK 1
+Current 25917 Previous 26181 OK 1
+Current 26181 Previous 26240 OK 1
+Current 26240 Previous 26884 OK 1
+Current 26884 Previous 27413 OK 1
+Current 27413 Previous 27728 OK 1
+Current 27728 Previous 27857 OK 1
+Current 27857 Previous 28223 OK 1
+Current 28223 Previous 28379 OK 1
+Current 28379 Previous 28836 OK 1
+Current 28836 Previous 28865 OK 1
+Current 28865 Previous 29077 OK 1
+Current 29077 Previous 29856 OK 1
+Current 29856 Previous 29914 OK 1
+Current 29914 Previous 29920 OK 1
+Current 29920 Previous 30225 OK 1
+Current 30225 Previous 30585 OK 1
+Current 30585 Previous 30919 OK 1
+Current 30919 Previous 31140 OK 1
+Current 31140 Previous 31790 OK 1
+Current 31790 Previous 32539 OK 1
+Current 32539 Previous 32941 OK 1
+Current 32941 Previous 33154 OK 1
+Current 33154 Previous 33163 OK 1
+Current 33163 Previous 33408 OK 1
+Current 33408 Previous 33454 OK 1
+Current 33454 Previous 34073 OK 1
+Current 34073 Previous 34106 OK 1
+Current 34106 Previous 34488 OK 1
+Current 34488 Previous 34512 OK 1
+Current 34512 Previous 34844 OK 1
+Current 34844 Previous 34864 OK 1
+Current 34864 Previous 34869 OK 1
+Current 34869 Previous 34947 OK 1
+Current 34947 Previous 35042 OK 1
+Current 35042 Previous 35348 OK 1
+Current 35348 Previous 35463 OK 1
+Current 35463 Previous 35784 OK 1
+Current 35784 Previous 36189 OK 1
+Current 36189 Previous 36644 OK 1
+Current 36644 Previous 36717 OK 1
+Current 36717 Previous 36846 OK 1
+Current 36846 Previous 36989 OK 1
+Current 36989 Previous 37039 OK 1
+Current 37039 Previous 37202 OK 1
+Current 37202 Previous 37299 OK 1
+Current 37299 Previous 37326 OK 1
+Current 37326 Previous 37707 OK 1
+Current 37707 Previous 37891 OK 1
+Current 37891 Previous 37944 OK 1
+Current 37944 Previous 38021 OK 1
+Current 38021 Previous 38645 OK 1
+Current 38645 Previous 39834 OK 1
+Current 39834 Previous 39890 OK 1
+Current 39890 Previous 39893 OK 1
+Current 39893 Previous 39914 OK 1
+Current 39914 Previous 40324 OK 1
+Current 40324 Previous 40869 OK 1
+Current 40869 Previous 41115 OK 1
+Current 41115 Previous 41290 OK 1
+Current 41290 Previous 41938 OK 1
+Current 41938 Previous 42677 OK 1
+Current 42677 Previous 42867 OK 1
+Current 42867 Previous 43431 OK 1
+Current 43431 Previous 43558 OK 1
+Current 43558 Previous 43986 OK 1
+Current 43986 Previous 44065 OK 1
+Current 44065 Previous 44498 OK 1
+Current 44498 Previous 44573 OK 1
+Current 44573 Previous 44718 OK 1
+Current 44718 Previous 45096 OK 1
+Current 45096 Previous 45384 OK 1
+Current 45384 Previous 45575 OK 1
+Current 45575 Previous 46256 OK 1
+Current 46256 Previous 46268 OK 1
+Current 46268 Previous 46467 OK 1
+Current 46467 Previous 46848 OK 1
+Current 46848 Previous 46880 OK 1
+Current 46880 Previous 47349 OK 1
+Current 47349 Previous 47394 OK 1
+Current 47394 Previous 47619 OK 1
+Current 47619 Previous 47668 OK 1
+Current 47668 Previous 47673 OK 1
+Current 47673 Previous 48553 OK 1
+Current 48553 Previous 48744 OK 1
+Current 48744 Previous 48760 OK 1
+Current 48760 Previous 48856 OK 1
+Current 48856 Previous 49368 OK 1
+Current 49368 Previous 49618 OK 1
+Current 49618 Previous 49837 OK 1
+Current 49837 Previous 50408 OK 1
+Current 50408 Previous 50477 OK 1
+Current 50477 Previous 50592 OK 1
+Current 50592 Previous 50677 OK 1
+Current 50677 Previous 51450 OK 1
+Current 51450 Previous 52216 OK 1
+Current 52216 Previous 52354 OK 1
+Current 52354 Previous 53102 OK 1
+Current 53102 Previous 53432 OK 1
+Current 53432 Previous 53895 OK 1
+Current 53895 Previous 54290 OK 1
+Current 54290 Previous 54516 OK 1
+Current 54516 Previous 54683 OK 1
+Current 54683 Previous 54833 OK 1
+Current 54833 Previous 54947 OK 1
+Current 54947 Previous 54990 OK 1
+Current 54990 Previous 55049 OK 1
+Current 55049 Previous 55228 OK 1
+Current 55228 Previous 55293 OK 1
+Current 55293 Previous 55573 OK 1
+Current 55573 Previous 55625 OK 1
+Current 55625 Previous 55668 OK 1
+Current 55668 Previous 55799 OK 1
+Current 55799 Previous 56066 OK 1
+Current 56066 Previous 56214 OK 1
+Current 56214 Previous 56366 OK 1
+Current 56366 Previous 56721 OK 1
+Current 56721 Previous 57032 OK 1
+Current 57032 Previous 57598 OK 1
+Current 57598 Previous 57710 OK 1
+Current 57710 Previous 57712 OK 1
+Current 57712 Previous 57936 OK 1
+Current 57936 Previous 58103 OK 1
+Current 58103 Previous 58788 OK 1
+Current 58788 Previous 58933 OK 1
+Current 58933 Previous 59150 OK 1
+Current 59150 Previous 59428 OK 1
+Current 59428 Previous 59723 OK 1
+Current 59723 Previous 59770 OK 1
+Current 59770 Previous 59890 OK 1
+Current 59890 Previous 60012 OK 1
+Current 60012 Previous 60050 OK 1
+Current 60050 Previous 60313 OK 1
+Current 60313 Previous 60392 OK 1
+Current 60392 Previous 60613 OK 1
+Current 60613 Previous 60629 OK 1
+Current 60629 Previous 60646 OK 1
+Current 60646 Previous 60769 OK 1
+Current 60769 Previous 61055 OK 1
+Current 61055 Previous 61138 OK 1
+Current 61138 Previous 61289 OK 1
+Current 61289 Previous 61609 OK 1
+Current 61609 Previous 61907 OK 1
+Current 61907 Previous 61979 OK 1
+Current 61979 Previous 62328 OK 1
+Current 62328 Previous 62562 OK 1
+Current 62562 Previous 62737 OK 1
+Current 62737 Previous 62796 OK 1
+Current 62796 Previous 62948 OK 1
+Current 62948 Previous 62960 OK 1
+Current 62960 Previous 63046 OK 1
+Current 63046 Previous 63153 OK 1
+Current 63153 Previous 63274 OK 1
+Current 63274 Previous 63767 OK 1
+Current 63767 Previous 63769 OK 1
+Current 63769 Previous 63837 OK 1
+Current 63837 Previous 64134 OK 1
+Current 64134 Previous 64345 OK 1
+Current 64345 Previous 64701 OK 1
+Current 64701 Previous 64828 OK 1
+RUN 1 PASSES
+This is Run 2: Testing Repeated Sorting Executions
+Current   879 Previous  1050 OK 1
+Current  1050 Previous  1057 OK 1
+Current  1057 Previous  1128 OK 1
+Current  1128 Previous  1441 OK 1
+Current  1441 Previous  1654 OK 1
+Current  1654 Previous  1717 OK 1
+Current  1717 Previous  1981 OK 1
+Current  1981 Previous  2033 OK 1
+Current  2033 Previous  2240 OK 1
+Current  2240 Previous  2629 OK 1
+Current  2629 Previous  2750 OK 1
+Current  2750 Previous  3068 OK 1
+Current  3068 Previous  3280 OK 1
+Current  3280 Previous  3597 OK 1
+Current  3597 Previous  3675 OK 1
+Current  3675 Previous  4034 OK 1
+Current  4034 Previous  4348 OK 1
+Current  4348 Previous  4376 OK 1
+Current  4376 Previous  4663 OK 1
+Current  4663 Previous  4898 OK 1
+Current  4898 Previous  5229 OK 1
+Current  5229 Previous  5291 OK 1
+Current  5291 Previous  5491 OK 1
+Current  5491 Previous  5698 OK 1
+Current  5698 Previous  5769 OK 1
+Current  5769 Previous  5831 OK 1
+Current  5831 Previous  5941 OK 1
+Current  5941 Previous  6074 OK 1
+Current  6074 Previous  6091 OK 1
+Current  6091 Previous  6511 OK 1
+Current  6511 Previous  6541 OK 1
+Current  6541 Previous  7489 OK 1
+Current  7489 Previous  7997 OK 1
+Current  7997 Previous  8241 OK 1
+Current  8241 Previous  8536 OK 1
+Current  8536 Previous  8962 OK 1
+Current  8962 Previous  8971 OK 1
+Current  8971 Previous  9309 OK 1
+Current  9309 Previous  9421 OK 1
+Current  9421 Previous  9450 OK 1
+Current  9450 Previous 10147 OK 1
+Current 10147 Previous 10419 OK 1
+Current 10419 Previous 10689 OK 1
+Current 10689 Previous 10940 OK 1
+Current 10940 Previous 11079 OK 1
+Current 11079 Previous 11192 OK 1
+Current 11192 Previous 11949 OK 1
+Current 11949 Previous 12481 OK 1
+Current 12481 Previous 12596 OK 1
+Current 12596 Previous 12743 OK 1
+Current 12743 Previous 12805 OK 1
+Current 12805 Previous 13099 OK 1
+Current 13099 Previous 13370 OK 1
+Current 13370 Previous 14324 OK 1
+Current 14324 Previous 14847 OK 1
+Current 14847 Previous 15368 OK 1
+Current 15368 Previous 16226 OK 1
+Current 16226 Previous 16273 OK 1
+Current 16273 Previous 16289 OK 1
+Current 16289 Previous 16461 OK 1
+Current 16461 Previous 16462 OK 1
+Current 16462 Previous 16770 OK 1
+Current 16770 Previous 17090 OK 1
+Current 17090 Previous 17663 OK 1
+Current 17663 Previous 17826 OK 1
+Current 17826 Previous 17941 OK 1
+Current 17941 Previous 17983 OK 1
+Current 17983 Previous 18413 OK 1
+Current 18413 Previous 18672 OK 1
+Current 18672 Previous 18916 OK 1
+Current 18916 Previous 19003 OK 1
+Current 19003 Previous 19137 OK 1
+Current 19137 Previous 19376 OK 1
+Current 19376 Previous 19454 OK 1
+Current 19454 Previous 19624 OK 1
+Current 19624 Previous 20113 OK 1
+Current 20113 Previous 20263 OK 1
+Current 20263 Previous 20448 OK 1
+Current 20448 Previous 20541 OK 1
+Current 20541 Previous 20745 OK 1
+Current 20745 Previous 21306 OK 1
+Current 21306 Previous 21379 OK 1
+Current 21379 Previous 21461 OK 1
+Current 21461 Previous 21627 OK 1
+Current 21627 Previous 21817 OK 1
+Current 21817 Previous 22428 OK 1
+Current 22428 Previous 23115 OK 1
+Current 23115 Previous 23433 OK 1
+Current 23433 Previous 23765 OK 1
+Current 23765 Previous 23861 OK 1
+Current 23861 Previous 24212 OK 1
+Current 24212 Previous 24605 OK 1
+Current 24605 Previous 25130 OK 1
+Current 25130 Previous 25622 OK 1
+Current 25622 Previous 25917 OK 1
+Current 25917 Previous 26181 OK 1
+Current 26181 Previous 26240 OK 1
+Current 26240 Previous 26884 OK 1
+Current 26884 Previous 27413 OK 1
+Current 27413 Previous 27728 OK 1
+Current 27728 Previous 27857 OK 1
+Current 27857 Previous 28223 OK 1
+Current 28223 Previous 28379 OK 1
+Current 28379 Previous 28836 OK 1
+Current 28836 Previous 28865 OK 1
+Current 28865 Previous 29077 OK 1
+Current 29077 Previous 29856 OK 1
+Current 29856 Previous 29914 OK 1
+Current 29914 Previous 29920 OK 1
+Current 29920 Previous 30225 OK 1
+Current 30225 Previous 30585 OK 1
+Current 30585 Previous 30919 OK 1
+Current 30919 Previous 31140 OK 1
+Current 31140 Previous 31790 OK 1
+Current 31790 Previous 32539 OK 1
+Current 32539 Previous 32941 OK 1
+Current 32941 Previous 33154 OK 1
+Current 33154 Previous 33163 OK 1
+Current 33163 Previous 33408 OK 1
+Current 33408 Previous 33454 OK 1
+Current 33454 Previous 34073 OK 1
+Current 34073 Previous 34106 OK 1
+Current 34106 Previous 34488 OK 1
+Current 34488 Previous 34512 OK 1
+Current 34512 Previous 34844 OK 1
+Current 34844 Previous 34864 OK 1
+Current 34864 Previous 34869 OK 1
+Current 34869 Previous 34947 OK 1
+Current 34947 Previous 35042 OK 1
+Current 35042 Previous 35348 OK 1
+Current 35348 Previous 35463 OK 1
+Current 35463 Previous 35784 OK 1
+Current 35784 Previous 36189 OK 1
+Current 36189 Previous 36644 OK 1
+Current 36644 Previous 36717 OK 1
+Current 36717 Previous 36846 OK 1
+Current 36846 Previous 36989 OK 1
+Current 36989 Previous 37039 OK 1
+Current 37039 Previous 37202 OK 1
+Current 37202 Previous 37299 OK 1
+Current 37299 Previous 37326 OK 1
+Current 37326 Previous 37707 OK 1
+Current 37707 Previous 37891 OK 1
+Current 37891 Previous 37944 OK 1
+Current 37944 Previous 38021 OK 1
+Current 38021 Previous 38645 OK 1
+Current 38645 Previous 39834 OK 1
+Current 39834 Previous 39890 OK 1
+Current 39890 Previous 39893 OK 1
+Current 39893 Previous 39914 OK 1
+Current 39914 Previous 40324 OK 1
+Current 40324 Previous 40869 OK 1
+Current 40869 Previous 41115 OK 1
+Current 41115 Previous 41290 OK 1
+Current 41290 Previous 41938 OK 1
+Current 41938 Previous 42677 OK 1
+Current 42677 Previous 42867 OK 1
+Current 42867 Previous 43431 OK 1
+Current 43431 Previous 43558 OK 1
+Current 43558 Previous 43986 OK 1
+Current 43986 Previous 44065 OK 1
+Current 44065 Previous 44498 OK 1
+Current 44498 Previous 44573 OK 1
+Current 44573 Previous 44718 OK 1
+Current 44718 Previous 45096 OK 1
+Current 45096 Previous 45384 OK 1
+Current 45384 Previous 45575 OK 1
+Current 45575 Previous 46256 OK 1
+Current 46256 Previous 46268 OK 1
+Current 46268 Previous 46467 OK 1
+Current 46467 Previous 46848 OK 1
+Current 46848 Previous 46880 OK 1
+Current 46880 Previous 47349 OK 1
+Current 47349 Previous 47394 OK 1
+Current 47394 Previous 47619 OK 1
+Current 47619 Previous 47668 OK 1
+Current 47668 Previous 47673 OK 1
+Current 47673 Previous 48553 OK 1
+Current 48553 Previous 48744 OK 1
+Current 48744 Previous 48760 OK 1
+Current 48760 Previous 48856 OK 1
+Current 48856 Previous 49368 OK 1
+Current 49368 Previous 49618 OK 1
+Current 49618 Previous 49837 OK 1
+Current 49837 Previous 50408 OK 1
+Current 50408 Previous 50477 OK 1
+Current 50477 Previous 50592 OK 1
+Current 50592 Previous 50677 OK 1
+Current 50677 Previous 51450 OK 1
+Current 51450 Previous 52216 OK 1
+Current 52216 Previous 52354 OK 1
+Current 52354 Previous 53102 OK 1
+Current 53102 Previous 53432 OK 1
+Current 53432 Previous 53895 OK 1
+Current 53895 Previous 54290 OK 1
+Current 54290 Previous 54516 OK 1
+Current 54516 Previous 54683 OK 1
+Current 54683 Previous 54833 OK 1
+Current 54833 Previous 54947 OK 1
+Current 54947 Previous 54990 OK 1
+Current 54990 Previous 55049 OK 1
+Current 55049 Previous 55228 OK 1
+Current 55228 Previous 55293 OK 1
+Current 55293 Previous 55573 OK 1
+Current 55573 Previous 55625 OK 1
+Current 55625 Previous 55668 OK 1
+Current 55668 Previous 55799 OK 1
+Current 55799 Previous 56066 OK 1
+Current 56066 Previous 56214 OK 1
+Current 56214 Previous 56366 OK 1
+Current 56366 Previous 56721 OK 1
+Current 56721 Previous 57032 OK 1
+Current 57032 Previous 57598 OK 1
+Current 57598 Previous 57710 OK 1
+Current 57710 Previous 57712 OK 1
+Current 57712 Previous 57936 OK 1
+Current 57936 Previous 58103 OK 1
+Current 58103 Previous 58788 OK 1
+Current 58788 Previous 58933 OK 1
+Current 58933 Previous 59150 OK 1
+Current 59150 Previous 59428 OK 1
+Current 59428 Previous 59723 OK 1
+Current 59723 Previous 59770 OK 1
+Current 59770 Previous 59890 OK 1
+Current 59890 Previous 60012 OK 1
+Current 60012 Previous 60050 OK 1
+Current 60050 Previous 60313 OK 1
+Current 60313 Previous 60392 OK 1
+Current 60392 Previous 60613 OK 1
+Current 60613 Previous 60629 OK 1
+Current 60629 Previous 60646 OK 1
+Current 60646 Previous 60769 OK 1
+Current 60769 Previous 61055 OK 1
+Current 61055 Previous 61138 OK 1
+Current 61138 Previous 61289 OK 1
+Current 61289 Previous 61609 OK 1
+Current 61609 Previous 61907 OK 1
+Current 61907 Previous 61979 OK 1
+Current 61979 Previous 62328 OK 1
+Current 62328 Previous 62562 OK 1
+Current 62562 Previous 62737 OK 1
+Current 62737 Previous 62796 OK 1
+Current 62796 Previous 62948 OK 1
+Current 62948 Previous 62960 OK 1
+Current 62960 Previous 63046 OK 1
+Current 63046 Previous 63153 OK 1
+Current 63153 Previous 63274 OK 1
+Current 63274 Previous 63767 OK 1
+Current 63767 Previous 63769 OK 1
+Current 63769 Previous 63837 OK 1
+Current 63837 Previous 64134 OK 1
+Current 64134 Previous 64345 OK 1
+Current 64345 Previous 64701 OK 1
+Current 64701 Previous 64828 OK 1
+RUN 2 PASSES
+This is Run 3: Testing Read and Write at the Same Time
+Address 7f Read_Data 8835 Write_Data 0000 Read 1 Write 0
+Address 80 Read_Data 8883 Write_Data 0000 Read 1 Write 0
+Address 7f Read_Data 8883 Write_Data ffff Read 1 Write 1
+Address 7f Read_Data 8835 Write_Data ffff Read 1 Write 0
+RUN 3 PASSES
+This is Test 4: Verifying Previous Runs to Determine if Buffer is Sorted Properly
+RUN 1 PASSES
+RUN 2 PASSES
+RUN 3 PASSES
+RUN 4 PASSES
+TESTBENCH PASSES
+$finish called at time : 693545 ns : File "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv" Line 178
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  4 22:29:07 2024...

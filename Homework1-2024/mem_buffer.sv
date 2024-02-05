@@ -32,6 +32,7 @@ logic [15:0]  data_mem  [255:0];
 ////////////////////////////////////////////////////////////////
 
 initial begin
+  //$readmemb("C:/Users/socce/Desktop/S24/5724/ECE5724/Homework1-2024/data.txt", data_mem);
   $readmemb("C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/data.txt", data_mem);
 end
 
@@ -42,30 +43,17 @@ always_ff @(posedge Clk or posedge Rst) begin
     data_mem[Address] <= data_mem[Address];
   end
   else begin
-    if (Write) begin
+    if (Write && ~Read) begin
       data_mem[Address] <= Write_Data;
+    end
+    else begin
+      data_mem[Address] <= data_mem[Address];
     end
   end
 end
 
 // Read Port
-/*
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    Read_Data <= data_mem[0];
-  end
-  else begin
-    if (Read) begin
-      Read_Data <= data_mem[Address];
-    end
-    else begin
-      Read_Data <= Read_Data;
-    end
-  end
-end
-*/
-
-assign Read_Data = (Read) ? data_mem[Address] : Read_Data;
+assign Read_Data = (Read && ~Write) ? data_mem[Address] : Read_Data;
 
 ////////////////////////////////////////////////////////////////
 //////////////////   Instantiation Template   //////////////////

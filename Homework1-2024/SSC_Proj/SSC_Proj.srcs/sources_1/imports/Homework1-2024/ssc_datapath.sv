@@ -34,11 +34,11 @@ logic [7:0] min_addr;
 logic       load_addr;
 
 // min reg nets
-logic [15:0]  min_reg;
+logic [15:0]  min_reg_r;
 logic         load_min;
 
 // temp reg nets
-logic [15:0]  temp_reg;
+logic [15:0]  temp_reg_r;
 logic         load_temp_r;
 
 // comparator nets
@@ -57,8 +57,8 @@ addr_mux addr_mux (
 );
 
 data_mux data_mux (
-  .Min_Reg(min_reg),
-  .Temp_Reg(temp_reg),
+  .Min_Reg(min_reg_r),
+  .Temp_Reg(temp_reg_r),
   .Sel_DMux(Sel_DMux),
   .Write_Data(Write_Data)
 );
@@ -70,39 +70,41 @@ amux amux (
   .Mux_Addr(mux_addr)
 );
 
+temp_reg temp_reg (
+    .Clk(Clk),
+    .Rst(Rst),
+    .Load_Temp(load_temp_r),
+    .Read_Data(Read_Data),
+    .Temp_Reg(temp_reg_r)
+);
+
+min_reg min_reg (
+    .Clk(Clk),
+    .Rst(Rst),
+    .Load_Min(load_min),
+    .Read_Data(Read_Data),
+    .Min_Reg(min_reg_r)
+);
+
+minaddr_reg minaddr_reg (
+    .Clk(Clk),
+    .Rst(Rst),
+    .Load_Addr(load_addr),
+    .Mux_Addr(mux_addr),
+    .Min_Addr(min_addr)
+);
+
+comparator comparator (
+    .Read_Data(Read_Data),
+    .Min_Reg(min_reg_r),
+    .Load_Min(Load_Min),
+    .Load_Addr(load_addr),
+    .Load_Min_D(load_min)
+);
+
 ////////////////////////////////////////////////////////////////
 ///////////////////////   Module Logic   ///////////////////////
 ////////////////////////////////////////////////////////////////
-
-// Min Addr Register
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    min_addr  <= '0;
-  end
-  else begin
-    if (load_addr) begin
-      min_addr <= mux_addr;
-    end
-    else begin
-      min_addr <= min_addr;
-    end
-  end
-end
-
-// Min Val Register
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    min_reg  <= '0;
-  end
-  else begin
-    if (load_min) begin
-      min_reg <= Read_Data;
-    end
-    else begin
-      min_reg <= min_reg;
-    end
-  end
-end
 
 always_ff @(posedge Clk or posedge Rst) begin
   if (Rst) begin
@@ -112,26 +114,6 @@ always_ff @(posedge Clk or posedge Rst) begin
     load_temp_r <= Load_Temp;
   end
 end
-
-// Temp Register
-always_ff @(posedge Clk or posedge Rst) begin
-  if (Rst) begin
-    temp_reg  <= '0;
-  end
-  else begin
-    if (load_temp_r) begin
-      temp_reg <= Read_Data;
-    end
-    else begin
-      temp_reg <= temp_reg;
-    end
-  end
-end
-
-// Comparator
-assign lt = (Read_Data < min_reg) ? 1'b1 : 1'b0;
-assign load_min = (Load_Min | lt) ? 1'b1 : 1'b0;
-assign load_addr = (Load_Min | lt) ? 1'b1 : 1'b0;
 
 ////////////////////////////////////////////////////////////////
 //////////////////   Instantiation Template   //////////////////

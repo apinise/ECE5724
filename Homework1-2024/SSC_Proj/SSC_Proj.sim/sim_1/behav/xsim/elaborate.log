@@ -5,20 +5,25 @@ Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'write_data' might have multiple concurrent drivers [C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv:99]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/data_mux.sv" Line 1. Module data_mux doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/addr_mux.sv" Line 1. Module addr_mux doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/data_mux.sv" Line 1. Module data_mux doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" Line 1. Module amux doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.addr_mux
 Compiling module xil_defaultlib.data_mux
 Compiling module xil_defaultlib.amux
+Compiling module xil_defaultlib.temp_reg
+Compiling module xil_defaultlib.min_reg
+Compiling module xil_defaultlib.minaddr_reg
+Compiling module xil_defaultlib.comparator
 Compiling module xil_defaultlib.ssc_datapath
+Compiling module xil_defaultlib.counter_1
+Compiling module xil_defaultlib.counter_2
 Compiling module xil_defaultlib.ssc_controller
 Compiling module xil_defaultlib.mem_buffer
 Compiling module xil_defaultlib.ssc_wrapper

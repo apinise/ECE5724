@@ -2,15 +2,27 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5
 INFO: [VRFC 10-311] analyzing module addr_mux
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/amux.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module amux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/comparator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/counter_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/counter_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_2
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/data_mux.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module data_mux
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/mem_buffer.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mem_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/min_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/minaddr_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minaddr_reg
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_controller.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ssc_controller
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_datapath.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ssc_datapath
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sources_1/imports/Homework1-2024/ssc_wrapper.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ssc_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/temp_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module temp_reg
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Evan/Documents/S24/5724/ECE5724/Homework1-2024/SSC_Proj/SSC_Proj.srcs/sim_1/imports/Homework1-2024/ssc_tb.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ssc_tb
