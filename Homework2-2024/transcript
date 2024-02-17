@@ -1,0 +1,30 @@
+# Compile of c5315_tb.v was successful.
+# Compile of component_library.v was successful.
+# Compile of c5315_net_V1.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -c -pli faultCollapsing.dll -c -pli faultInjection.dll c5315_tb
+# vsim -c -pli "faultCollapsing.dll" -pli "faultInjection.dll" c5315_tb 
+# Start time: 00:13:48 on Feb 17,2024
+# Loading work.c5315_tb
+# Loading work.c5315_net
+# Loading work.fanout_n
+# Loading work.bufg
+# Loading work.and_n
+# Loading work.notg
+# Loading work.nand_n
+# Loading work.or_n
+# Loading work.nor_n
+# Loading ./faultCollapsing.dll
+# Loading ./faultInjection.dll
+# ** Warning: Design size of 6229 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+run -continue
+run -continue
+run -continue
+# ** Note: $stop    : C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v(678)
+#    Time: 57113770 ns  Iteration: 0  Instance: /c5315_tb
+# Break in Module c5315_tb at C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v line 678
+# End time: 08:50:32 on Feb 17,2024, Elapsed time: 8:36:44
+# Errors: 0, Warnings: 3

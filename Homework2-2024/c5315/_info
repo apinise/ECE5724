@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA/homework2
+vand_n
+Z0 !s110 1708146701
+!i10b 1
+!s100 [EkQTn_?>zmUXPo:Y^FDe2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6SLe`KESzKVPo12cTbj:81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024
+Z4 w1707952405
+Z5 8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v
+Z6 FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v
+!i122 10
+L0 40 19
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1708146701.000000
+Z9 !s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v|
+Z10 !s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v|
+!i113 1
+Z11 o-work c5315
+Z12 tCvgOpt 0
+vbufg
+R0
+!i10b 1
+!s100 Hi0aHc9WIVaBjh2RTBNj11
+R1
+IoOgOK@l:96EInzn6Se8J:2
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 10 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vc5315
+!s110 1708138832
+!i10b 1
+!s100 MXl:cOaC<PT`E@9W[K^d:2
+R1
+IoIKZj`zLH_4jf?VZcRVG;1
+R2
+R3
+R4
+8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v
+FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v
+!i122 0
+L0 1 2594
+R7
+r1
+!s85 0
+31
+!s108 1708138831.000000
+!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v|
+!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v|
+!i113 1
+R11
+R12
+vc5315_net
+R0
+!i10b 1
+!s100 do84Go`;EAQ@5k15DZU[E0
+R1
+ICFCod[P]59_H^^`8_gW2Z0
+R2
+R3
+w1708139805
+8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
+FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
+!i122 11
+L0 7 6554
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
+!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
+!i113 1
+R11
+R12
+vc5315_tb
+R0
+!i10b 1
+!s100 H5o9`5SEBnnfofb7@<KAX0
+R1
+I[8AaYPhe_i@mNo9?M252f0
+R2
+R3
+w1708139676
+8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
+FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
+!i122 9
+L0 3 679
+R7
+r1
+!s85 0
+31
+!s108 1708146700.000000
+!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
+!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
+!i113 1
+R11
+R12
+vdff
+R0
+!i10b 1
+!s100 nS[WH2`1EhoOd7[V`ofCK3
+R1
+INiRJ_zkc9ZmQe^^X9N8iA1
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 256 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfanout_n
+R0
+!i10b 1
+!s100 n;mUVDNDnBYD]Ih8PJLbf1
+R1
+IWDL;=aF]5Qg]ALVeC9hD93
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 196 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnand_n
+R0
+!i10b 1
+!s100 HkSk_=c]7E8XzfzTSaFE@2
+R1
+I<8GZn:HZYX^2GEcA1LPi60
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 92 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnor_n
+R0
+!i10b 1
+!s100 AU@aUWS0QWLz7]oNc<TgP3
+R1
+I4U2Y`XF6jI1n:iX>AW>Oz1
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 118 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnotg
+R0
+!i10b 1
+!s100 FV>cSEiH0ER:L6OEl3]o^0
+R1
+ISD>0<RTdkS3Mo3FC8gaC_1
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 25 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vor_n
+R0
+!i10b 1
+!s100 N[=I[Nza84EOO77RM_GTM2
+R1
+IPOiE;38P^fREY80kDOJM?3
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 66 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vpin
+R0
+!i10b 1
+!s100 J=2;a4UJU2iGcLhCdQTaI3
+R1
+Ib:<6nMA]JQ6:D0^bT:Kd]2
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 217 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vpout
+R0
+!i10b 1
+!s100 Ph2=^nnc61`<j7MT^J_Z02
+R1
+ISV4OGAEA?3zgMFH@A@k500
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 238 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vxnor_n
+R0
+!i10b 1
+!s100 ?J9i>1zQ@M7nO5HVLV3gV0
+R1
+IDRz79iPU[ZhDbWkGEdPGX0
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 170 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vxor_n
+R0
+!i10b 1
+!s100 >CA6VKD8VSUhco5Je:gP[2
+R1
+ILW0UToL:B9eOf[6aF6DB40
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 144 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
