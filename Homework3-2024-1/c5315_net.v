@@ -1,9 +1,5 @@
 
 //Verilog file of module c5315
-//CONVERTED BY CAD RESEARCH GROUP
-//UNIVERSITY OF TEHRAN
-//M. Hashem Haghbayan. hashem@cad.ut.ac.ir
-
 
 
 `timescale 1 ns / 1ns
