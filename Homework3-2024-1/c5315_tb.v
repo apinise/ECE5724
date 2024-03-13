@@ -3,12 +3,12 @@
 module c5315_tb (
 );
 
-parameter numOfFault = 5104;
+parameter numOfFaults = 5104;
 parameter inputWidth = 178;
 parameter outputWidth = 123;
 parameter initialExpFCount = 2; 
-parameter utLimit = 20; 
-parameter desiredCoverage = 90; 
+parameter utLimit = 10000; 
+parameter desiredCoverage = 99; 
 
 reg [1:inputWidth] n;
 wire [outputWidth-1:0] o, onet;
@@ -19,11 +19,9 @@ integer faultFile, testFile, status;
 integer uTests, detectedFaultsCT, expFCountCT, faultIndex; 
 integer tmp, newDiscovered, coverage, detectedFaultsAT; 
 integer keepedCT, totalCT;
-real numOfFaults = 5104;
 real numOfDetecteds = 0;
-real coverage = 0;
 reg[1:inputWidth] testVector;
-reg[60*8:1] wireName;
+reg[8*50:1] wireName;
 reg stuckAtVal;
 reg [1:numOfFaults] detectedListCT, detectedListAT;
 
@@ -647,22 +645,31 @@ initial begin
   detectedFaultsAT =0; 
   faultIndex = 1; detectedListAT = 0; 
   expFCountCT = initialExpFCount; 
+  faultFile = $fopen ("c5315.flt", "w");
+  $FaultCollapsing(c5315_tb.FUT,"c5315.flt");
+  $fclose(faultFile);
   testFile = $fopen("c5315-adj.tst", "w"); 
   #10; 
 
   while(coverage < desiredCoverage && uTests < utLimit) begin 
-    detectedFaultsCT = 0; detectedListCT = 0;
-    testVector = $random($time); 
+    detectedFaultsCT = 0; detectedListCT = 0; detectedFaultsAT = 0;
+    testVector[1:32] = $random($time);
+    testVector[33:64] = $random($time);
+    testVector[65:96] = $random($time);
+    testVector[97:128] = $random($time);
+    testVector[129:160] = $random($time);
+    testVector[161:178] = $random($time);
     totalCT = totalCT + 1;
     uTests = uTests + 1; 
     faultIndex = 1; 
     #10; 
     newDiscovered = 0; 
     faultFile = $fopen ("c5315.flt", "r"); 
+    
     while(!$feof(faultFile)) begin // Fault Injection loop 
       status=$fscanf(faultFile,"%s s@%b\n",wireName,stuckAtVal);  
       $InjectFault(wireName, stuckAtVal); 
-      g = testVector;  
+      n = testVector;  
       #60;  
       
       if(o != onet) begin 
@@ -678,15 +685,22 @@ initial begin
     end //end of while(!$feof(faultFile)) 
     $fclose(faultFile);
     
-    if(newDiscovered < expFCountCT) begin
+    if(detectedFaultsCT < expFCountCT) begin //newDiscovered
       tmp = expFCountCT / 2;
     end
     else begin
-      tmp = (newDiscovered + expFCountCT) / 2; 
+      tmp = (detectedFaultsCT + expFCountCT) / 2; 
     end
     expFCountCT = tmp;  
 
-    if(newDiscovered >= expFCountCT && (newDiscovered > 0)) begin 
+    if(detectedFaultsCT >= expFCountCT && (newDiscovered > 0)) begin 
+      detectedFaultsAT = 0;
+      keepedCT = keepedCT + 1;
+      for (faultIndex=1; faultIndex<=numOfFaults; faultIndex=faultIndex+1)
+        if((detectedListAT[faultIndex]==1) || (detectedListCT[faultIndex]==1)) begin
+          detectedListAT[faultIndex] = 1'b1; detectedFaultsAT = detectedFaultsAT + 1;
+        end
+      /*
       keepedCT = keepedCT + 1;
       uTests = 0;
       //detectedFaultsAT = 0; 
@@ -696,13 +710,13 @@ initial begin
           $display ("here");
           detectedListAT[faultIndex] = 1'b1; 
         end 
-             
+      */       
       coverage = 100 * detectedFaultsAT / numOfFaults; 
       $fdisplay(testFile, "%b", testVector); 
     end
     #10; 
   end //end of while of Coverage 
-	//	$display("Number of Random Vectors Generated: %d", uTests); 
+	$display("Number of Random Vectors Generated: %d", uTests); 
   $display("%d of total %d test vectors are keeped!", keepedCT, totalCT);  
   $display("Coverage : %d", coverage); 
 end

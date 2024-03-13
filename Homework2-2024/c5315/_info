@@ -8,349 +8,326 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/FPGA/homework2
+Z0 dC:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024
 vand_n
-Z0 !s110 1708146701
+Z1 !s110 1708291937
 !i10b 1
 !s100 [EkQTn_?>zmUXPo:Y^FDe2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I6SLe`KESzKVPo12cTbj:81
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024
-Z4 w1707952405
-Z5 8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v
-Z6 FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v
-!i122 10
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKgZ:zBXoCH;4>MgTb=[NR0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1708283654
+Z5 8C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v
+Z6 FC:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v
+!i122 2
 L0 40 19
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1708146701.000000
-Z9 !s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v|
-Z10 !s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v|
+Z8 !s108 1708291937.000000
+!s107 C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v|
+Z9 !s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v|
 !i113 1
-Z11 o-work c5315
-Z12 tCvgOpt 0
+Z10 o-work c5315
+Z11 tCvgOpt 0
 vbufg
-R0
+R1
 !i10b 1
 !s100 Hi0aHc9WIVaBjh2RTBNj11
-R1
-IoOgOK@l:96EInzn6Se8J:2
 R2
+IledMaU]fKDYllDBgg[aYI3
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 10 8
 R7
 r1
 !s85 0
 31
 R8
+Z12 !s107 C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v|
 R9
+!i113 1
 R10
-!i113 1
 R11
-R12
-vc5315
-!s110 1708138832
-!i10b 1
-!s100 MXl:cOaC<PT`E@9W[K^d:2
-R1
-IoIKZj`zLH_4jf?VZcRVG;1
-R2
-R3
-R4
-8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v
-FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v
-!i122 0
-L0 1 2594
-R7
-r1
-!s85 0
-31
-!s108 1708138831.000000
-!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v|
-!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net.v|
-!i113 1
-R11
-R12
 vc5315_net
-R0
+R1
 !i10b 1
 !s100 do84Go`;EAQ@5k15DZU[E0
-R1
-ICFCod[P]59_H^^`8_gW2Z0
 R2
+I8jO?SA<gcl>AFm:oAK_^F3
 R3
-w1708139805
-8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
-FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
-!i122 11
+R0
+w1708283457
+8C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
+FC:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
+!i122 0
 L0 7 6554
 R7
 r1
 !s85 0
 31
-R8
-!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
-!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
+!s108 1708291936.000000
+!s107 C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
+!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v|
 !i113 1
+R10
 R11
-R12
 vc5315_tb
-R0
-!i10b 1
-!s100 H5o9`5SEBnnfofb7@<KAX0
 R1
-I[8AaYPhe_i@mNo9?M252f0
+!i10b 1
+!s100 T[VV8z:L_I@RdMEILZBS93
 R2
+IzGz0_c`=2F5AHU`S]IPmL2
 R3
-w1708139676
-8C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
-FC:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
-!i122 9
-L0 3 679
+R0
+w1708291601
+8C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
+FC:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
+!i122 1
+L0 3 681
 R7
 r1
 !s85 0
 31
-!s108 1708146700.000000
-!s107 C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
-!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
+R8
+!s107 C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
+!s90 -reportprogress|300|-work|c5315|-stats=none|C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v|
 !i113 1
+R10
 R11
-R12
 vdff
-R0
+R1
 !i10b 1
 !s100 nS[WH2`1EhoOd7[V`ofCK3
-R1
-INiRJ_zkc9ZmQe^^X9N8iA1
 R2
+IcD6YQ8_F=NQUkP0:bZ<ZE2
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 256 22
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vfanout_n
-R0
+R1
 !i10b 1
 !s100 n;mUVDNDnBYD]Ih8PJLbf1
-R1
-IWDL;=aF]5Qg]ALVeC9hD93
 R2
+IMkBmbb<5iHk>24G3m<8mV1
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 196 14
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vnand_n
-R0
+R1
 !i10b 1
 !s100 HkSk_=c]7E8XzfzTSaFE@2
-R1
-I<8GZn:HZYX^2GEcA1LPi60
 R2
+II`FLc]Fdmo6>[JUGQOA741
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 92 19
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vnor_n
-R0
+R1
 !i10b 1
 !s100 AU@aUWS0QWLz7]oNc<TgP3
-R1
-I4U2Y`XF6jI1n:iX>AW>Oz1
 R2
+I8:^^o84_=FX36`AL?1ndD3
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 118 19
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vnotg
-R0
+R1
 !i10b 1
 !s100 FV>cSEiH0ER:L6OEl3]o^0
-R1
-ISD>0<RTdkS3Mo3FC8gaC_1
 R2
+Ie[i@Q6K4a>9DDd78;F7me0
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 25 8
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vor_n
-R0
+R1
 !i10b 1
 !s100 N[=I[Nza84EOO77RM_GTM2
-R1
-IPOiE;38P^fREY80kDOJM?3
 R2
+IPnB@3CLQMfHF=c@nd@ZKj0
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 66 19
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vpin
-R0
+R1
 !i10b 1
 !s100 J=2;a4UJU2iGcLhCdQTaI3
-R1
-Ib:<6nMA]JQ6:D0^bT:Kd]2
 R2
+I[mP?Mml`MBKe4O]k`S57;3
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 217 14
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vpout
-R0
+R1
 !i10b 1
 !s100 Ph2=^nnc61`<j7MT^J_Z02
-R1
-ISV4OGAEA?3zgMFH@A@k500
 R2
+I4PK98h;:W4f7z3>38lz4K2
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 238 14
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vxnor_n
-R0
+R1
 !i10b 1
 !s100 ?J9i>1zQ@M7nO5HVLV3gV0
-R1
-IDRz79iPU[ZhDbWkGEdPGX0
 R2
+IU6z77kcRoF7XFn@LW3N`N0
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 170 19
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11
 vxor_n
-R0
+R1
 !i10b 1
 !s100 >CA6VKD8VSUhco5Je:gP[2
-R1
-ILW0UToL:B9eOf[6aF6DB40
 R2
+IF?mKh`5meiCh65l@dP2Xn0
 R3
+R0
 R4
 R5
 R6
-!i122 10
+!i122 2
 L0 144 19
 R7
 r1
 !s85 0
 31
 R8
-R9
-R10
-!i113 1
-R11
 R12
+R9
+!i113 1
+R10
+R11

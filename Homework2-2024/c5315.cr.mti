@@ -12,7 +12,50 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	c5315_tb
 
+} {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v {1 {vlog -work c5315 -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_net_V1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module c5315_net
+
+Top level modules:
+	c5315_net
+
 } {} {}} C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v {1 {vlog -work c5315 -stats=none C:/Users/socce/Desktop/S24/5724/ECE5724/Homework2-2024/component_library.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bufg
+-- Compiling module notg
+-- Compiling module and_n
+-- Compiling module or_n
+-- Compiling module nand_n
+-- Compiling module nor_n
+-- Compiling module xor_n
+-- Compiling module xnor_n
+-- Compiling module fanout_n
+-- Compiling module pin
+-- Compiling module pout
+-- Compiling module dff
+
+Top level modules:
+	bufg
+	notg
+	and_n
+	or_n
+	nand_n
+	nor_n
+	xor_n
+	xnor_n
+	fanout_n
+	pin
+	pout
+	dff
+
+} {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v {1 {vlog -work c5315 -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/c5315_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module c5315_tb
+
+Top level modules:
+	c5315_tb
+
+} {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v {1 {vlog -work c5315 -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework2-2024/component_library.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module bufg
 -- Compiling module notg

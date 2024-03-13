@@ -14,7 +14,7 @@ wire [outputWidth-1:0] o, onet;
 reg detected = 0;
 integer i;
 integer testFile, faultFile, dictionaryFile, status;
-real numOfFaults = 5350;
+real numOfFaults = 0;
 real numOfDetecteds = 0;
 real coverage = 0;
 reg[inputWidth - 1:0] testVector;
@@ -671,8 +671,10 @@ initial begin
     $RemoveFault(wireName);
     $fwrite (dictionaryFile, "%s, %b \n", wireName, syndrome);
     #30;
+    numOfFaults = numOfFaults + 1;
   end
   coverage = numOfDetecteds / numOfFaults;
+  $display("Number of Collapsed Faults: %d Number of Detected Faults: %d Fault Coverage: %f", numOfFaults, numOfDetecteds, coverage);
   $fwrite (dictionaryFile, "Coverage: %f\n", coverage);
   $fclose(dictionaryFile);		
   $stop;
