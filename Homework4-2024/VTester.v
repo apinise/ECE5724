@@ -1,3 +1,5 @@
+`timescale 1 ns / 1ns
+
 module VTester ();
 	
 	parameter ff = 64;
@@ -10,7 +12,7 @@ module VTester ();
 	reg clk = 1'b 0;
 	reg [1:ff] pre_expected_st, cur_expected_st, scanIn, saved_st;
 	wire So;
-	wire [outWidth - 1:0] PO;
+	wire [0:outWidth - 1] PO;
 	reg [outWidth - 1:0] expected_PO, SampledPO;
 	reg [outWidth + inWidth + (2 * ff):1] line;
 	
@@ -21,9 +23,7 @@ module VTester ();
 	reg detected = 1'b 0;
 	reg flag = 1'b 0;
 
-	SSC_net FUT (clk, 1'b 0, PI[1], PI[2], PI[3], PI[4], PI[5], PI[6], PI[7], PI[8], PI[9], PI[10], PI[11], PI[12], PI[13], PI[14], PI[15], PI[16], PI[17], PO[0], PO[1], PO[2], 
-                PO[3], PO[4], PO[5], PO[6], PO[7], PO[8], PO[9], PO[10], PO[11], PO[12], PO[13], PO[14], PO[15], PO[16], PO[17], PO[18], PO[19], PO[20], PO[21], PO[22], PO[23], 
-                PO[24], PO[25], PO[26], PO[27], Si, So, NbarT);  
+	SSC_net FUT (.clk(clk), .rst(1'b 0), .start(PI[1]), .read_reg(PO[24]), .write_reg(PO[25]), .readdata(PI[2:17]), .writedata(PO[0:15]), .addr(PO[16:23]), .done(PO[26]), .Si(Si), .So(So), .NbarT(NbarT));  
     always #30 clk = ~clk; 
 
 	initial begin
@@ -40,9 +40,9 @@ module VTester ();
 		begin 
 			status = $fscanf(faultFile, "%s s@%b\n", wireName, stuckAtVal); 
 			detected = 1'b 0;
-			testFile = $fopen ("SSC.tst", "r");
+			testFile = $fopen ("SSC.pat", "r");
 			flag = 1'b 0;
-			$inject(wireName, stuckAtVal);
+			$InjectFault(wireName, stuckAtVal);
 			#2
 			while((!$feof(testFile))&&(!detected))
 			begin 
@@ -116,7 +116,7 @@ module VTester ();
 			$fclose (testFile);
 			if (detected == 1)
 				numOfDetected = numOfDetected + 1;
-			$remove(wireName); 
+			$RemoveFault(wireName); 
 			#3;
 				
          
