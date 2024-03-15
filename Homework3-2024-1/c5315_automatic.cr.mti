@@ -5,6 +5,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	c5315_tb
 
+} {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/c5315_net.v {1 {vlog -work c5315_automatic -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/c5315_net.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module c5315_net
+
+Top level modules:
+	c5315_net
+
 } {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/component_library.v {1 {vlog -work c5315_automatic -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/component_library.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module bufg
@@ -33,12 +40,5 @@ Top level modules:
 	pin
 	pout
 	dff
-
-} {} {}} C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/c5315_net.v {1 {vlog -work c5315_automatic -stats=none C:/Users/Evan/Documents/S24/5724/ECE5724/Homework3-2024-1/c5315_net.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module c5315_net
-
-Top level modules:
-	c5315_net
 
 } {} {}}
